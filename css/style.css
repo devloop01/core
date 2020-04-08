@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Facon";
+  src: url("../fonts/Facon.ttf");
+}
+
 :root {
   --red: #ff5246;
   --green: #43ff32;
@@ -269,7 +274,7 @@ button.audio-toggle .icon-container .icon svg {
   top: 25%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "Facon";
+  font-family: "Facon", "Montserrat";
   font-size: 6rem;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.65);
